@@ -1,0 +1,114 @@
+
+.main{
+	height:100%;
+	width:100;
+	/*background-image: url(../.assets.//images/dspack.jpg);*/
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.login {
+	margin:200px auto;
+	width:282px;
+	height:400px;  
+	border-radius: 8px;
+	/*z-index: -100;*/
+	/*background-image: url(../../assets/images/logobox.png);*/
+	background-repeat: no-repeat;
+}
+.p3 {
+	height:85px;
+	color:#1485ee!important;
+	font-family: "微软雅黑";
+	line-height: 85px;
+	margin-bottom:30px;
+	font-size:82px;
+}
+.p3 img{
+	float:left;
+	display: inline-block;
+	margin-right: 30px; 
+}
+.p4{
+	text-align: center;
+	color:#000;
+	margin-bottom:30px;
+	font-size:16px;
+
+}
+.loginform{
+	margin:0 auto;
+}
+.checkbox{
+	color:#fff;
+}
+.useImg{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	
+}
+/*.Input{
+	width:300px
+}*/
+.Input input:-webkit-autofill {
+background-color: #FAFFBD!important;
+background-image: none!important;
+color: #000!important;
+}
+.userimg{
+	display: inline-block;
+	width:20px;
+	height:20px;
+	background-color: #fff;
+}
+.button {
+	width:100%;
+	border:0;
+	
+	margin-top:30px;
+}
+
+.leftcol{
+	
+	text-align: center;
+}
+.audit{
+	color:#bbb;
+}
+.audit:hover{
+	color:#bbb!important;
+}
+.loginContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url('../../assets/images/bg.png');
+	background-repeat: no-repeat;
+}
+.loginFooter{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background:#fff;
+}
+.loginFooter li{
+	float:left;
+	margin-right:10px;
+}
+.title{
+	font-size: 64px;
+	display: inline-block;
+
+}
+@media only screen and (max-width:1440px){
+	.login{
+		width:350px;
+	}
+}
+@media only screen and (max-height:600px){
+	.p3{
+		font-size:18px;
+		margin:0px;
+	}
+}

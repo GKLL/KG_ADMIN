@@ -1,0 +1,52 @@
+.search{
+	width:100%;
+	height:auto;
+	background:#eee;
+	border-radius: 5px;
+	padding:20px;
+	margin-bottom:25px;
+}
+.search_result{
+	/*background:#eee;*/
+  padding-bottom:50px;
+  margin-top: 20px;
+}
+.NoImg{
+	width:220px;
+	height:144px;
+	line-height: 144px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px dashed  #e5e5e5;
+	border-radius: 5px;
+
+}
+.tableListForm {
+    width:100%;
+	height:auto;
+	background:#eee;
+	padding:10px;
+	margin-bottom:15px;
+  :global {
+    .ant-form-item {
+      margin-bottom: 14px;
+      margin-right: 0;
+      display: flex;
+      > .ant-form-item-label {
+        width: auto;
+        line-height: 32px;
+        padding-right: 8px;
+      }
+      .ant-form-item-control {
+        line-height: 32px;
+      }
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+  .submitButtons {
+    white-space: nowrap;
+    margin-bottom: 24px;
+  }
+}

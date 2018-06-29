@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KG管理系统</title>
+  <link rel="stylesheet" href="index.css" type="text/css"/>
+  <link rel="shortcut icon"  href="https://pro-kg-oss.oss-cn-beijing.aliyuncs.com/ico/favicon.ico" type="image/x-icon" />
+  <style>
+  	html,body{
+  		font-family: '微软雅黑';
+  	}
+  	.ant-table{
+  		font-size:12px!important;
+  	}
+    .ant-table-thead > tr > th{
+      /*text-align: center!important;*/
+      background: none!important;
+    }
+    /*.ant-table table{
+      text-align: center!important;
+    }*/
+    .cropper-container .cropper-bg{
+      width:100%!important;
+      height:100%!important;
+    }
+    .w-e-text-container{
+        height:700px!important;
+      }
+    .w-e-text{
+        overflow-y:auto;
+        color:#4d4d4d;
+      }
+    .w-e-text p{
+      font-size:16px;
+    }
+    .w-e-text blockquote{
+      font-size:16px!important;
+    }
+    .w-e-text p span{
+      font-size:16px;
+    }
+    .w-e-toolbar,.editorBox .w-e-text-container{
+          background:#fff!important;
+          border:1px solid #f1f1f1;
+          /*/border-bottom:1px solid #ccc!important;*/
+      }   
+      .powerStatement .el-form-item__content{
+          line-height: 20px!important;
+          background: #f4f4f4;
+          width: 80%;
+      }
+    .regularCheckbox{
+      width:20px!important;
+      height:20px!important;
+      font-size:18px!important;
+      color:#ccc!important;
+      background-color: #f00!important;
+      border: 1px solid #cacece;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+      padding: 9px;
+      border-radius: 3px;
+      display: inline-block;
+      margin-left: 20px;
+    }
+    .regular-checkbox:checked {
+      background-color: #e9ecee;
+      color:#f00!important;
+      border: 1px solid #adb8c0;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+      /*//color: #99a1a7;*/
+    }
+    .ant-table-tbody>tr:nth-child(odd), .bs-table tr:nth-child(odd){
+      background: #fbfbfb;
+    }
+    .anticon-caret-down,.anticon-caret-up{
+      font-size:16px!important;
+    }
+    .ant-table-column-sorter-up{
+      height:8px!important;
+    }
+    .ql-align-center {
+      text-align: center;
+    }
+    .ql-align-right {
+      text-align: right;
+    }
+    .ql-align-justify {
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <!-- <script type="text/javascript" src="index.js"></script> -->
+</body>
+
+</html>

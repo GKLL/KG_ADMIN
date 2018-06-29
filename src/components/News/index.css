@@ -1,0 +1,9 @@
+.imgBox{
+	width:650px;
+	height:174px;
+	line-height:174px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px dashed  #e5e5e5;
+
+}

@@ -1,0 +1,20 @@
+{
+  "entry": ["babel-polyfill","src/index.js"],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": true }]
+      ]
+    },
+    "ignoreMomentLocale": true
+  }
+ 
+}

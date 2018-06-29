@@ -1,0 +1,40 @@
+.imgBox{
+	width:350px;
+	min-height:174px;
+	line-height:174px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px dashed  #d0d0d0;
+
+}
+.keyWord{
+	display: inline-block;
+	margin-left: 20px;
+	padding: 0 10px;
+	height:30px;
+	line-height:30px;
+	cursor: pointer;
+
+}
+
+
+.keySelect{
+	display: inline-block;
+	margin-left: 20px;
+	height:30px;
+	line-height:30px;
+	padding: 0 10px;
+	cursor: pointer;
+	border:1px solid #d0d0d0;
+	border-radius: 15px;
+}
+.keyTitle{
+	font-size:14px;
+	font-weight: bold;
+}
+.clearAll{
+	color:#2382ea;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 20px;
+}

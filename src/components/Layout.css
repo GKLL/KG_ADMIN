@@ -1,0 +1,267 @@
+.ant-layout-topaside {
+  height: 100%;
+}
+
+.ant-layout-topaside .ant-layout-wrapper {
+  padding: 0 50px;
+}
+
+.ant-layout-topaside .ant-layout-header {
+  background: #404040;
+  height: 64px;
+}
+
+.ant-layout-topaside .ant-layout-logo {
+  width: 120px;
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px 28px 16px 0;
+  float: left;
+
+}
+.trigger {
+  font-size: 20px;
+  line-height: 64px!important;
+  cursor: pointer;
+  transition: all .3s, padding 0s;
+  padding: 0 24px;
+  
+}
+.trigger:hover{
+  background: #e6f7ff;
+  color:#1890ff;
+}
+.rename{
+	font-family: "微软雅黑"
+}
+.ant-layout-topaside .ant-layout-subheader {
+  height: 48px;
+  border-bottom: 1px solid #e9e9e9;
+  background: #fff;
+}
+
+.ant-layout-topaside .ant-layout-breadcrumb {
+  margin: 7px 0 -17px 24px;
+}
+
+.ant-layout-topaside .ant-layout-container {
+  background: #fff;
+  margin: 24px 0 0;
+  position: relative;
+  padding: 24px 0;
+  overflow: hidden;
+}
+.activeColor{
+	background: #fff;
+}
+.ant-layout-topaside .ant-layout-sider {
+  width: 224px;
+  float: left;
+}
+
+.ant-layout-topaside .ant-layout-content {
+  border-left: 1px solid #e9e9e9;
+  padding: 0 24px;
+  overflow: auto;
+  position: relative;
+  left: -1px;
+}
+
+.ant-layout-topaside .ant-layout-footer {
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  font-size: 12px;
+  color: #999;
+}
+.right_content{
+	width:100%;
+}
+.nav{
+	height:auto;
+}
+.nav li a{
+	color:#b8b8b8;
+	font-size:18px;
+	width:100%;
+}
+.nav li:first-child{
+	line-height:0;
+}
+.nav li img{
+	height:64px;
+}
+.navlogin{
+	float:right !important;
+}
+.container{
+	height:100%;
+	display: flex;
+	flex-direction: row;
+}
+.content{
+	width:100%;
+	padding:15px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.current{
+	background-color:#f00;
+}
+.item{
+	
+}
+
+.nav{
+	width:100%;
+	height:60px;
+	background-color: #000;
+	opacity: 0.8;
+}
+.nav a {
+	display: inline-block;
+	width:80px;
+	height:60px;
+	line-height: 60px;
+	text-align:center;
+	color:#fff!important;
+	font-size:16px;
+}
+.nav a:hover{
+	display: inline-block;
+	width:80px;
+	height:60px;
+	line-height: 60px;
+	text-align:center;
+	color:#fff!important;
+	font-size:16px;
+	background:#556069;
+}
+.logo img{
+	display: block;
+	margin:10px auto;
+
+}
+.logo{
+	text-align: center;
+	font-size: 24px;
+}
+.header_right{
+	float:right;
+}
+.header_right span{
+	margin-right:20px;
+	font-size:16px;
+}
+/*.navImg{
+	display: inline-block;
+	width:200px!important;
+	height:50px;
+	line-height:50px;
+	background-image: url(../assets/images/logo.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}*/
+.current{
+	background:#748089;
+	color:#000!important;
+}
+.pullRight{
+	display: inline-block;
+	height:60px;
+	line-height: 60px;
+	text-align:center;
+	font-size:16px;
+	position:absolute;
+	left:240px;
+	color:#fff;
+}
+.pullText{
+	color:#ff6200!important;
+}
+.out{
+	display: inline-block;
+	width:80px;
+	height:60px;
+	line-height: 60px;
+	text-align:center;
+	font-size:16px;
+	color:#fff;
+	position:absolute;
+	right:10px;
+}
+.outpull{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 15px;
+	background-color: #00A0E9;
+}
+.logOut{
+	font-size:18px;
+	padding-right:20px; 
+	cursor: pointer;
+	color:#1890ff;
+}
+.sider {
+  min-height: 100vh;
+  box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+  position: relative;
+  z-index: 10;
+}
+.footer{
+	width:100%;
+
+	/*height:7%;*/
+	/*text-align:center;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background:#fff;
+	position: absolute;
+	bottom:0px;
+
+/* 	height:7%;
+text-align:center;
+position: fixed;
+bottom:0;
+background: -webkit-linear-gradient(left top, #e2f2ef , #edf5e6); Safari 5.1 - 6.0
+    background: -o-linear-gradient(bottom right, #e2f2ef, #edf5e6); Opera 11.1 - 12.0
+    background: -moz-linear-gradient(bottom right, #e2f2ef, #edf5e6); Firefox 3.6 - 15
+    background: linear-gradient(to bottom right, #e2f2ef , #edf5e6); 标准的语法（必须放在最后）
+ */
+}
+.footer div{
+
+}
+
+.footer  li{
+	float:left;
+	margin-right:5px;
+}
+@media only screen and (max-height:1900px){
+
+	.pullRight{
+		left:200px;
+	}
+}
+@media only screen and (max-height:600px){
+	.content{
+		padding:10px 0px;
+	}
+}
+@media only screen and (max-height:800px){
+	.content{
+		padding:11px 0px;
+	}
+}
+
+

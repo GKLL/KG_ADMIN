@@ -1,0 +1,29 @@
+.pagination{
+	float:right;
+	margin-top:20px;
+}
+.contentText{
+	
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.pag{
+    height:60px;
+}
+.conten{
+	width:500px;
+	white-space: nowrap;
+　　overflow: hidden;
+　　text-overflow: ellipsis;
+}
+.appText{
+    display: inline-block;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
